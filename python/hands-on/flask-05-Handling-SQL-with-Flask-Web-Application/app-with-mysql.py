@@ -31,11 +31,11 @@ CREATE TABLE users (
 data = """
 INSERT INTO clarusway.users 
 VALUES 
-	("Tuba", "tuba@amazon.com" ),
+	("canip", "poyraz@amazon.com" ),
 	("Ethan", "ethan@micrasoft.com"),
 	("mostafa", "mostafa@facebook.com"),
     ("sait", "sait@tesla.com"),
-    ("busra","busra@google");
+    ("poyraz","cpoyraz@google");
 """
 cursor.execute(drop_table)
 cursor.execute(users_table)
